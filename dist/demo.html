@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Load Images Demo</title>
+    <style media="screen">
+      img {
+        display: block;
+        height: 200px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+    <img class="load-image" src="img/loading.svg" data-src="http://lorempixel.com/400/200/" alt="Lorem pixel">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js/jquery.load-image.js"></script>
+    <script>
+      $('.load-image[data-src]').loadImage({
+        desconto: 500
+      });
+    </script>
+  </body>
+</html>
