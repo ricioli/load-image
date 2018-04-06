@@ -1,6 +1,6 @@
 # Load Image
 
-Plugin para carregamento parcial de imagens em jQuery. Carrega apenas as imagens que estão visiveis no navegador e as restantes carrega na rolagem da página conforme forem entrando na área visível do site.
+Plugin para carregamento parcial de imagens em jQuery. Carrega apenas as imagens que estão visíveis no navegador e as restantes carrega na rolagem da página conforme forem entrando na área visível do site.
 
 ## Como usar?
 
@@ -42,7 +42,7 @@ crossorigin="anonymous"></script>
 ### Desconto
 Um número inteiro que definirá com quantos pixels antes do topo da imagem ficar visível na tela a imagem será carregada.
 ```
-Parametro: desconto
+Parâmetro: desconto
 Tipo: integer
 Padrão: 0
 ```
@@ -55,7 +55,7 @@ Padrão: 0
 </script>
 ```
 
-## Licence
+## Licença
 
 MIT License (MIT)
 
